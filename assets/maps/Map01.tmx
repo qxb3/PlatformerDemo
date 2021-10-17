@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<map version="1.2" orientation="orthogonal" renderorder="right-down" width="32" height="16" tilewidth="16" tileheight="16" nextobjectid="16">
+  <properties>
+    <property name="sw1" value="168" />
+    <property name="sw2" value="187" />
+    <property name="sw3" value="184" />
+    <property name="sw4" value="171" />
+  </properties>
+  <tileset firstgid="1" name="tileset" columns="16" tilecount="192" tileheight="16" tilewidth="16">
+    <image source="tileset.png" width="256" height="192" />
+  </tileset>
+  <layer name="main" width="32" height="16">
+    <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAGNgGAWjYBSMguELlgPxCiBeDcRrqGgeNozNju1AvAOIdwPxHgLmrsaBkc1ENg8bxmcHPgAzFx1TYuYoGNwAAJ5UM/0ACAAA
+  </data>
+  </layer>
+  <objectgroup name="ground">
+    <object id="1" x="48" y="176">
+      <polygon points="0,0 128,0 128,32 0,32 " />
+    </object>
+    <object id="2" x="208" y="160">
+      <polygon points="0,0 144,0 144,32 0,32 " />
+    </object>
+    <object id="3" x="400" y="144">
+      <polygon points="0,0 64,0 64,32 0,32 " />
+    </object>
+  </objectgroup>
+  <objectgroup name="spawn">
+    <object id="5" x="104" y="120">
+      <point />
+    </object>
+  </objectgroup>
+  <objectgroup name="coins">
+    <object id="8" x="216" y="152">
+      <point />
+    </object>
+    <object id="11" x="296" y="152">
+      <point />
+    </object>
+    <object id="12" x="408" y="120">
+      <point />
+    </object>
+    <object id="13" x="440" y="120">
+      <point />
+    </object>
+    <object id="14" x="424" y="104">
+      <point />
+    </object>
+    <object id="15" x="456" y="104">
+      <point />
+    </object>
+  </objectgroup>
+</map>
